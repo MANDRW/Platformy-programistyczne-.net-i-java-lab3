@@ -65,7 +65,7 @@ namespace MatrixThread
 
             for (int t = 0; t < threads; t++)
             {
-                int threadIndex = t; // zapamiętaj indeks wątku (ważne dla zakresu!)
+                int threadIndex = t;
                 threadArray[t] = new Thread(() =>
                 {
                     int startRow = threadIndex * rowsPerThread;
@@ -87,7 +87,6 @@ namespace MatrixThread
                 threadArray[t].Start();
             }
 
-            // Czekaj na zakończenie wszystkich wątków
             for (int t = 0; t < threads; t++)
             {
                 threadArray[t].Join();
