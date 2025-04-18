@@ -1,0 +1,25 @@
+Typ,Wiersze,Kolumny,Wątki,Czas (ms)
+Thread,100,100,1,7
+Parallel,100,100,1,7
+Thread,100,100,2,3
+Parallel,100,100,2,3
+Thread,100,100,4,2
+Parallel,100,100,4,2
+Thread,100,100,8,2
+Parallel,100,100,8,1
+Thread,500,500,1,935
+Parallel,500,500,1,941
+Thread,500,500,2,491
+Parallel,500,500,2,493
+Thread,500,500,4,298
+Parallel,500,500,4,295
+Thread,500,500,8,240
+Parallel,500,500,8,237
+Thread,1000,1000,1,7634
+Parallel,1000,1000,1,7722
+Thread,1000,1000,2,4672
+Parallel,1000,1000,2,4484
+Thread,1000,1000,4,2323
+Parallel,1000,1000,4,2262
+Thread,1000,1000,8,1930
+Parallel,1000,1000,8,1871
